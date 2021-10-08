@@ -20,5 +20,18 @@
     或者
     "build": "tailwind build css/tailwind.css -o dist/tailwind.css"
 
-6. 创建 html 文件并引入 dist 中的 tailwind.css 或者 style.css
+6. npm run watch 或者 npm run build 
 
+7. 每次修改css/style.css|tailwind.css 都需要执行 6 
+
+8. 创建 html 文件并引入 dist 中的 tailwind.css 或者 style.css
+    <link rel="stylesheet" href="../dist/tailwind.css">
+    或者
+    <link rel="stylesheet" href="../dist/style.css">
+
+
+# 响应式设计
+sm 适用于最小宽度为640px的设备
+md 适用于最小宽度为768px的设备
+lg 适用于最小宽度为1024px的设备
+xl 适用于最小宽度为1280px的设备
